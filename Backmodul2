@@ -1,0 +1,10 @@
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class Backmodul2 : MonoBehaviour
+{
+    public void LoadScene(string ModulAjar1)
+    {
+        SceneManager.LoadScene(ModulAjar1);
+    }
+}
